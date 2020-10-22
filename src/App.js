@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Formulario from "./componentes/Formulario";
-import Header from "./componentes/Header";
 import axios from "axios";
 import styled from "@emotion/styled";
 import imagen from "./cryptomonedas.png";
@@ -70,28 +69,6 @@ function App() {
       </div>
     </Contenedor>
   );
-  // async componentDidMount(){
-  //   this.obtenerMonedas()
-  // }
-
-  // obtenerMonedas = async () => {
-  //   const url = ``
-
-  //   await axios.get(url)
-  //     .then(respuesta => {
-
-  //     })
-  // }
-  // render() {
-  //   return ( <div className="App">
-  //     <Header titulo="criptomonedas al instante"/>
-  //     <div className="row justify-content-center">
-  //       <div className="col-md-6 bg-light pb-4 contenido-principal">
-  //         <Formulario />
-  //       </div>
-  //     </div>
-  //   </div> );
-  // }
 }
 
 export default App;

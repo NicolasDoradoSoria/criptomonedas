@@ -68,13 +68,8 @@ const Formulario = ({setmoneda, setcriptomoneda}) => {
       {error? <Error mensaje= "todos los campos son obligatorios" /> : null}
       <SelectMonedas />
       <SelectCripto />
-      <div className="form-group"></div>
 
-      {/* <div className="form-group">
-        <label>Criptomoneda</label>
-        <select className="form-control"></select>
-      </div> */}
-      <div className="form-group">
+      <div>
         <Boton type="submit" className="btn btn-primary" value="cotizar" />
       </div>
     </form>
